@@ -37,7 +37,8 @@ footer{
     .second-line{
         padding-left:2rem;
         padding-right:2rem;
-            border-bottom: 1px solid #392d23;
+        border-bottom: 1px solid #392d23;
+        font-size: 10px;
     }
 }
 
@@ -46,3 +47,4 @@ footer{
         display: block;
     }
 }
+
