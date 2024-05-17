@@ -87,3 +87,54 @@ ul{
     display: none;
     font-size: 24px;
 }
+
+@media (max-width:992px) {
+    .info{
+        display: none;
+    }
+    .first-line{
+        display: block;
+        text-align: center;   
+    }
+    .sns-area{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .last{
+        margin-right: 0;
+    }
+    .second-line-container{
+        width:100%;
+    }
+
+    .menus {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 738px){
+    .menus{
+        display: block;
+    }
+    .menus li {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+    .footer-container{
+        text-align: center;
+    }
+    .company-info{
+        display: block;
+    }
+    .company-contact{
+        display: none;
+    }
+    .vision{
+        display: none;
+    }
+
+    .slogan{
+        display: block;
+    }
+}
